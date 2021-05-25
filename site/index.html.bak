@@ -3,12 +3,7 @@
   <head>
      <title>Lucy's homepage</title>
      <style type="text/css">
-     a:hover{
-     	background-color: rgb(134, 145,78);
-     }
-     a:active{
-     	color:red;
-     }
+     a:hover
      </style>
   </head>
   <body>
