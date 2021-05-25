@@ -3,7 +3,18 @@
   <head>
      <title>Lucy's homepage</title>
      <style type="text/css">
-     a:hover
+     a:link{
+     	color:blue;
+     }
+     a:visted{
+     	color:black;
+     }
+     a:hover{
+     	color: red;
+     }
+     a:active{
+     	color:green;
+     }
      </style>
   </head>
   <body>
