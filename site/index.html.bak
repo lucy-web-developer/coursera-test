@@ -15,6 +15,10 @@
      a:active{
      	color:green;
      }
+     li.language{
+     	font-size:125%;
+     	font-weight:bold;
+     }
      </style>
   </head>
   <body>
@@ -67,16 +71,22 @@
     	</p>
     
     <h2 id="Profile">Profile</h2> 	
-    <p>  I am optimistic, motivated, and a fast learner.<br/> 
-         I am easy to collaborate with the engineering team to solve complex problems efficiently.<br/>
-         I am keen to learn modern technology and have a passion for solving problems across all areas of the business.
-    	  
-    	 
-    	 
-    	 </p>
+    <div> 
+    	<ul>
+    	  <li>
+    	  I am optimistic, motivated, and a fast learner.
+    	  </li>
+    	   <li>
+    	  I am easy to collaborate with the engineering team to solve complex problems efficiently.
+    	  </li>
+    	   <li>
+    	   I am keen to learn modern technology and have a passion for solving problems across all areas of the business.
+    	  </li>
+    	</ul>
+    	 </div>
     <h2 id="Computer Skills">Computer Skills</h2> 		
     <ul>
-    	<li>
+    	<li class="language">
     		Programming Languages 
     	</li>
     
@@ -89,22 +99,22 @@
     	       </li>
     	
     	       <li>
-    		   Java
+    		   C++
     		   </li>
     	  </ul>
 
-    	<li>
+    	<li class="language">
     		Databases
     	</li>
     	   <ul>
     	   	   <li>SQL</li>
     	   </ul>
-    	<li>
+    	<li class="language">
     		Web Technologies
     	</li>
     	   <ul>
     	   	   <li>
-    	   		HTML
+    	   		 HTML
     	   	   </li>
     	   	   <li>
     	   	    CSS
