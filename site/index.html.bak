@@ -19,6 +19,9 @@
      	font-size:125%;
      	font-weight:bold;
      }
+     ul.profile{
+     	list-style-image:url("images/star.png");
+     }
      </style>
   </head>
   <body>
@@ -72,7 +75,7 @@
     
     <h2 id="Profile">Profile</h2> 	
     <div> 
-    	<ul>
+    	<ul class="profile">
     	  <li>
     	  I am optimistic, motivated, and a fast learner.
     	  </li>
