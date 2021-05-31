@@ -1,0 +1,225 @@
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Styling Text Inputs</title>
+		<style type="text/css">	
+      body{
+      	font-family:Arial,verdana,sans-serif;
+      }
+      h1{
+      	font-family:Arial,sans-serif;
+      }
+      p.intro{
+      	font-family:Arial,sans-serif;
+      	/*font-size:120%;*/
+      	line-height:1.5em;	
+      	
+      	
+      }
+      ul{
+      	list-style-image:url("images/icon-plus.png")
+      }
+      
+      table{
+      	background-color:#bdbdbd;
+      	width:800px;
+      	border: 1px solid #bdbdbd;
+      }
+      tr.head{
+      	background-color:#5d8fc2;
+      	
+      }
+      th.headline{
+      	font-size:90%;
+      	color:white;
+      	text-shadow:1px 1px 1px #e1e5eb;
+      	font-family:Arial,sans-serif;
+      	text-align:center;
+      	border-bottom:1.5px solid black;
+      	padding:5px 10px 5px 10px;
+      }
+      .column{
+      	font-size:90%;
+      	text-align:left;
+      }
+      tr.odd{
+      background-color:#c4c9cf;	
+      }
+      tr.even{
+      background-color:#e1e5eb;	
+      }
+      th,td{
+      	
+      font-size:90%;	
+      border-collapse:collapse;
+      }
+      form{
+      	width:460px;
+      }
+      legend{
+      	font-style:italic;
+      }
+      div.location{
+      margin:10px 10px 10px 0px;	
+      }
+			input#name {
+				margin: 0 0px 0 110px;;
+				font-size: 120%;
+				color: #5a5854;
+				background-color: #f2f2f2;
+				border: 1px solid #bdbdbd;
+				border-radius: 5px;
+				padding: 5px 5px 5px 30px;
+				background-repeat: no-repeat;
+				background-position: 8px 9px;
+				/*display: block;*/
+				margin-bottom: 10px;}
+			input#name:focus, input#name:hover {
+				background-color: #dddddd;
+				border: 1px solid #b1e1e4;}
+			input#email {
+				margin: 0 0px 0 108px;;
+				font-size: 120%;
+				color: #5a5854;
+				background-color: #f2f2f2;
+				border: 1px solid #bdbdbd;
+				border-radius: 5px;
+				padding: 5px 5px 5px 30px;
+				background-repeat: no-repeat;
+				background-position: 8px 9px;
+				/*display: block;*/
+				margin-bottom: 10px;}
+			input#email:focus, input#email:hover {
+				background-color: #dddddd;
+				border: 1px solid #b1e1e4;}
+			select{
+				margin: 10px 10px 10px 50px;
+				width:115px;
+			}
+			input#submit {
+				font-famlily:Aril, Verdana, Sans-serif;
+				text-shadow:1px 1px 1px #ffffff;
+				
+				font-size: 120%;
+				color: #444444;
+        background-color:#e9eabe;
+				border: 1px solid #bdbdbd;
+				border-bottom:2px solid #b2b2b2;
+				border-radius: 5px;
+				padding: 5px;
+				background:linear-gradient(to bottom,#beeae9,#a8cfce);
+				background-repeat: no-repeat;
+        
+				margin: 10px 10px 0px 376px;}
+			input#submit:focus, input#submit:hover {
+				color:black;
+				background-color:#ead5be;
+				background:linear-gradient(to bottom,#a8cfce,#beeae9 );
+				border: 1px solid #b1e1e4;
+				border-top:2px solid #b2b2b2;}
+			input{
+				margin:0 10px 0px 45px;
+			}
+/*			input#email {
+				background-image: url("images/email.png");}
+			input#twitter {
+				background-image: url("images/twitter.png");}
+			input#web {
+				background-image: url("images/web.png");}*/
+		</style>
+	</head>
+	<body>
+		<h1>
+		Poetry Workshops
+		</h1>
+		<p class="intro">
+		We will be conducting of poetry workshops and symposiums throughout the year.
+		Please note that the following events are free to members:
+		</p>
+		<ul class="property">
+		  <li>
+		  A Poetic Perspective
+		  </li>
+		  <li>
+		  Wait Whitman at War
+		  </li>
+		  <li>
+		  Found Poems and Outsider Poetry
+		  </li>
+		</ul>
+		<div class="mytable">
+		<table>
+				<tr class="head">
+					<th class="headline"></th>
+					<th class="headline">New York</th>
+					<th class="headline">Chicage</th>
+					<th class="headline">San Francisco</th>
+				</tr>
+				<tr class="odd">
+				<th class="column">A Poetic Perspective</th>
+				<td>Sat, 4 Feb 2012<br />11am - 2pm</td>
+				<td>Sat, 3 Mar 2012<br />11am - 2pm</td>
+				<td>Sat, 17 Mar 2012<br />11am - 2pm</td>
+			</tr>
+			<tr class="even">
+				<th class="column">Walt Whitman at War</th>
+				<td>Sat, 7 Apr 2012<br />11am - 1pm</td>
+				<td>Sat, 5 May 2012<br />11am - 1pm</td>
+				<td>Sat, 19 May 2012<br />11am - 1pm</td>
+			</tr>
+			<tr class="odd">
+				<th class="column">Found Poems &amp; Outsider Poetry</th>
+				<td>Sat, 9 Jun 2012<br />11am - 2pm</td>
+				<td>Sat, 7 Jul 2012<br />11am - 2pm</td>
+				<td>Sat, 21 Jul 2012<br />11am - 2pm</td>
+			</tr>
+			<tr class="even">
+				<th class="column">Natural Death: An Exploration</th>
+				<td>Sat, 4 Aug 2012<br />11am - 4pm</td>
+				<td>Sat, 8 Sep 2012<br />11am - 4pm</td>
+				<td>Sat, 15 Sep 2012<br />11am - 4pm</td>
+			</tr>	
+			</table><br/>
+		</div>
+		
+<div class="myform">
+	<form>
+		<fieldset>
+		  <legend>
+		  Register your interest
+		  </legend>
+			<div>
+			<label>Your name:<input type="text" id="name" size="15"/></label>
+			</div>
+			
+			
+			<label>Your email:
+			<input type="text" id="email" size="15" />
+			</label>
+			<div class="location">
+			Your closest center:
+			<select size="1">
+			<option value="location1">New York</option>
+			<option value="location2">Newark</option>
+			<option value="location2">New Jersey</option>
+			</select>
+			</div>
+			<div>
+			<label>Are you a member?
+			<input type="radio" name="name" value="yes" checked="checked" />Yes
+			<input type="radio" name="name" value="no" />No
+			</label>
+			</div>
+		  
+		</fieldset>
+	</form>	
+</div>
+  <form>
+		 <input id="submit" type="submit" name="register" value="Register" />
+			
+	</form>
+	</body>
+</html>
