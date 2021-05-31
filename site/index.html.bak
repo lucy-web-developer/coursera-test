@@ -2,6 +2,10 @@
 <html>
   <head>
      <title>Lucy's homepage</title>
+     <script src="js/script.js">
+     
+     </script>
+     
      <style type="text/css">
      a:link{
      	color:blue;
@@ -114,6 +118,17 @@
     	   	   </li>
     	   	   <li>
     	   	    CSS
+    	   	   </li>
+    	   </ul>
+    	<li class="language">
+    		Deployment/Command-Line Fundamentals 
+    	</li>
+    	   <ul>
+    	   	   <li>
+    	   		 Git
+    	   	   </li>
+    	   	   <li>
+    	   	   GitHub pages
     	   	   </li>
     	   </ul>
     </ul>
